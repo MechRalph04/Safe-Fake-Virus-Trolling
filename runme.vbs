@@ -2,7 +2,7 @@ Set WshShell = WScript.CreateObject("WScript.Shell")
 
 strName = wshShell.ExpandEnvironmentStrings( "%USERNAME%" )
 
-x=msgbox ("Critical: Your system is severely affected by multiple threats.. To abort all processes, press 'Abort'. To Scan again, press 'Retry'. To continue all processes, click 'Ignore'." ,2+16, "Virus found by World Device Media©")
+x=msgbox ("Critical: Your system is severely affected by multiple threats.. To abort all processes, press 'Abort'. To Scan again, press 'Retry'. To continue all processes, click 'Ignore'." ,2+16, "Virus detected by World Device MediaÂ©")
 WScript.sleep 2000
 msgbox "Sytem failure in %WINDIR%",48,ERROR
 
